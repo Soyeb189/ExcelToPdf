@@ -7,7 +7,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelToPdfUtil {
 
-    public void convertToPdf(String excelFile, String pdfOutputPath)  {
+    public static void convertToPdf(String excelFile, String pdfOutputPath)  {
 
         try {
             // Create Workbook to load Excel file
